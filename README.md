@@ -2,7 +2,7 @@
 File substr.c implements a function called substr() to get a subtring from a
 string. The signature of this function is:
 
-    char *substr(const char *str, int start_index, int end_index)
+        char *substr(const char *str, int start_index, int end_index)
 
 Function substr() allocates memory for the substring and returns a pointer to
 this substring which is a copy of characters of 'str' from 'start_index' to
